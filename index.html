@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flowtemplate – Boutique de Templates n8n</title>
+  <link rel="stylesheet" href="flowtemplate.css" />
+</head>
+<body>
+  <header><h1>Flowtemplate</h1></header>
+  <main>
+    <div class="templates-container">
+      <div class="template-card">
+        <img src="images/screenshot.png" alt="Aperçu template Automatisation Email" class="screenshot" />
+        <h2>Automatisation Email</h2>
+        <p class="template-description">Automatise l'envoi d'emails pour tes nouvelles commandes Shopify.</p>
+        <p class="price">19,99 €</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+          <input type="hidden" name="cmd" value="_xclick" />
+          <input type="hidden" name="business" value="TON-EMAIL-PAYPAL@EXEMPLE.COM" />
+          <input type="hidden" name="item_name" value="Template Automatisation Email" />
+          <input type="hidden" name="currency_code" value="EUR" />
+          <input type="hidden" name="amount" value="19.99" />
+          <button type="submit">Acheter</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer>&copy; 2025 Flowtemplate – Tous droits réservés</footer>
+</body>
+</html>
