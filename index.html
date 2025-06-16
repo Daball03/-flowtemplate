@@ -2,30 +2,35 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Flowtemplate – Boutique de Templates n8n</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flowtemplate – Templates n8n</title>
   <link rel="stylesheet" href="flowtemplate.css" />
 </head>
 <body>
-  <header><h1>Flowtemplate</h1></header>
+  <header>
+    <h1>🚀 Flowtemplate</h1>
+    <p>Des templates n8n prêts à l'emploi pour automatiser ton business</p>
+  </header>
+
   <main>
-    <div class="templates-container">
-      <div class="template-card">
-        <img src="images/screenshot.png" alt="Aperçu template Automatisation Email" class="screenshot" />
-        <h2>Automatisation Email</h2>
-        <p class="template-description">Automatise l'envoi d'emails pour tes nouvelles commandes Shopify.</p>
-        <p class="price">19,99 €</p>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-          <input type="hidden" name="cmd" value="_xclick" />
-          <input type="hidden" name="business" value="TON-EMAIL-PAYPAL@EXEMPLE.COM" />
-          <input type="hidden" name="item_name" value="Template Automatisation Email" />
-          <input type="hidden" name="currency_code" value="EUR" />
-          <input type="hidden" name="amount" value="19.99" />
-          <button type="submit">Acheter</button>
-        </form>
-      </div>
-    </div>
+    <section class="template">
+      <h2>📦 Template #1 – Shopify → Email</h2>
+      <p>Envoie un email automatiquement à chaque commande Shopify</p>
+      <ul>
+        <li>✅ Aucune ligne de code</li>
+        <li>✅ Compatible n8n cloud & auto-hébergé</li>
+        <li>✅ Version gratuite disponible</li>
+      </ul>
+      <a class="button" href="./template-simple.json" download>Télécharger version gratuite</a>
+      <form action="https://www.paypal.com/paypalme/TONLIENPAYPAL" method="post" target="_blank">
+        <button class="paypal" type="submit">💸 Acheter la version complète</button>
+      </form>
+    </section>
   </main>
-  <footer>&copy; 2025 Flowtemplate – Tous droits réservés</footer>
+
+  <footer>
+    <p>© 2025 Flowtemplate – Fait avec ❤️ pour les utilisateurs de n8n</p>
+    <p><a href="mailto:support@easyn8n.com">Besoin d’aide ? Contacte-nous</a></p>
+  </footer>
 </body>
 </html>
